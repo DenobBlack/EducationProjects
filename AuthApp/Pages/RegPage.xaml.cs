@@ -26,7 +26,7 @@ namespace AuthApp.Pages
             InitializeComponent();
         }
 
-        private void regButton_Click(object sender, RoutedEventArgs e)
+        private void RegButton_Click(object sender, RoutedEventArgs e)
         {
             if (loginBox.Text == "" || passwordBox.Password == "" || confirmPasswordBox.Password == "")
             {

@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorsApp", "ErrorsApp\Erro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InspectApp", "InspectApp\InspectApp.csproj", "{724F32FC-6E7D-4796-A84A-E8F46EFE2160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApp", "AuthApp\AuthApp.csproj", "{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthApp", "AuthApp\AuthApp.csproj", "{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUI", "TestUI\TestUI.csproj", "{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}.Release|x64.ActiveCfg = Release|Any CPU
 		{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}.Release|x64.Build.0 = Release|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Debug|x64.Build.0 = Debug|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Release|x64.ActiveCfg = Release|Any CPU
+		{ACDA5F98-078B-44AF-B6CA-EF9C42E4E5EC}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

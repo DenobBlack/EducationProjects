@@ -5,17 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AuthApp.Pages"
       mc:Ignorable="d" 
-      Title="RegPage">
+      Title="RegPage"
+      >
 
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
             <TextBlock Text="Логин" Margin="5"/>
-            <TextBox x:Name="loginBox" Margin="5"/>
+            <TextBox x:Name="loginBox" Margin="5" AutomationProperties.AutomationId="1"/>
             <TextBlock Text="Пароль" Margin="5"/>
-            <PasswordBox x:Name="passwordBox" Margin="5"/>
+            <PasswordBox x:Name="passwordBox" Margin="5"   AutomationProperties.AutomationId="ter"/>
             <TextBlock Text="Подтверждение пароля" Margin="5"/>
-            <PasswordBox x:Name="confirmPasswordBox" Margin="5"/>
-            <Button x:Name="regButton" Content="Зарегистрироваться" Margin="5" Click="regButton_Click"/>
+            <PasswordBox x:Name="confirmPasswordBox" Margin="5"   AutomationProperties.AutomationId="3"/>
+            <Button x:Name="regButton" Content="Зарегистрироваться" Margin="5" Click="RegButton_Click"/>
         </StackPanel>
     </Grid>
 </Page>

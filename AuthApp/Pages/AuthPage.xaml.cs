@@ -25,7 +25,7 @@ namespace AuthApp.Pages
             InitializeComponent();
         }
 
-        private void authButton_Click(object sender, RoutedEventArgs e)
+        private void AuthButton_Click(object sender, RoutedEventArgs e)
         {
             if (loginBox.Text == "" || passwordBox.Password == "")
             {
